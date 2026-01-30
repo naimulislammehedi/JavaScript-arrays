@@ -1,25 +1,37 @@
-// How do I store multiple related values in a single variable, in a specific order?
+// push() – Add to the End
+let numbers = [1, 2, 3]; 
+numbers.push(4); 
+console.log(numbers); 
 
-// A JavaScript array is an ordered list of values.
-let numbers = [10, 20, 30, 40]; 
+let result = numbers.push(5); 
+console.log(result); 
 
-// Accessing Array Elements
-let fruits = ["Apple", "Banana", "Mango"]; 
-console.log(fruits[0]); 
-console.log(fruits[1]); 
-console.log(fruits[2]); 
+
+// pop() – Remove from the End
+let removed = numbers.pop(); 
+console.log(removed); 
+console.log(numbers); 
+
+
+
 /*
-If you access an index that doesn’t exist:
-No error. Just undefined.
+Given this array:
+let scores = [10, 20, 30];
+
+1. Add 40 to the array
+2. Add 50 to the array
+3. Remove the last value and store it in a variable called lastScore
+4. Print:
+    - lastScore
+    - The final scores array
+    - Write the complete code.
 */
-console.log(fruits[5]); 
+let scores = [10, 20, 30];
+scores.push(40); 
+scores.push(50); 
 
-// Updating Array Values
-fruits[1] = "Orance"; 
-console.log(fruits); 
+let lastScore = scores.pop(); 
 
-// Array Length
-console.log(fruits.length); 
 
-// Last index = length - 1
-console.log(fruits[-1]); 
+console.log(lastScore); 
+console.log(scores); 
