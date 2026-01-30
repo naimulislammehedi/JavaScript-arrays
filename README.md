@@ -1,2 +1,4 @@
 - Topic 1: What is an Array?
 - Topic 2: Adding & Removing Elements (push & pop)
+- Topic 3: unshift() & shift() (Front of the Array)
+- Topic 4: Looping Through Arrays (for loop)
