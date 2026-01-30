@@ -41,7 +41,7 @@ Write the full JavaScript code.
 
 */
 let cities = ["Dhaka", "Chittagong", "Sylhet"]; 
-
+ 
 console.log(cities[0]);
 console.log(cities[cities.length - 1]);  
 
