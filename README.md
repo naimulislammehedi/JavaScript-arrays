@@ -1,0 +1,2 @@
+- Topic 1: What is an Array?
+- Topic 2: Adding & Removing Elements (push & pop)
